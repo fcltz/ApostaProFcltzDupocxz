@@ -18,10 +18,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: black;
-}
-
 header {
   background: linear-gradient(to right, #002a69, #0066ff);
   display: flex;
@@ -142,103 +138,6 @@ header span {
   text-align: center;
   font-size: 0.8rem;
   width: 70%;
-}
-
-.button-2 {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  position: absolute;
-  background-color: #0066ff;
-  color: white;
-  top: 51rem;
-  padding: 1rem 3rem 1rem 3rem;
-  animation: pisca 1.5s infinite;
-  box-shadow: 0px 0px 20px -5px #1570ef;
-  border-radius: 0.4rem;
-  text-decoration: none;
-}
-
-.button-3 {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  background-color: #0066ff;
-  color: white;
-  padding: 1rem 3rem;
-  animation: pisca 1.5s infinite;
-  box-shadow: 0px 0px 20px -5px #1570ef;
-  border-radius: 0.4rem;
-  text-decoration: none;
-  position: relative; /* Muda para posicionamento relativo */
-  z-index: 1; /* Garante que o botão fique acima de outros elementos */
-  margin-top: auto; /* Empurra o botão para o final do contêiner flexível */
-  margin-bottom: 2rem; /* Ajuste conforme necessário */
-}
-
-.container-2 {
-  background-color: black;
-  position: relative;
-  width: 100%;
-  height: 100vh; /* Ajuste conforme necessário */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 12px;
-}
-
-.text-container-2 {
-  position: absolute;
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  text-align: center;
-  font-size: 2rem;
-  top: 1.5rem;
-}
-
-.subtext-container-2 {
-  color: #0066ff;
-}
-
-.text-container-3 {
-  position: absolute;
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  text-align: center;
-  font-size: 1.6rem;
-  top: 1.5rem;
-}
-
-.subtext-container-3 {
-  color: #0066ff;
-}
-
-.swiper {
-  width: 95%;
-  height: 660px;
-  bottom: 0.4rem;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: transparent;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.block-1 {
-  color: white;
-  background-color: blue;
 }
 
 footer {
