@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&display=swap");
+
+@keyframes pisca {
+  70% {
+    box-shadow: 0 0 0 30px transparent;
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  background: linear-gradient(to right, #002a69, #0066ff);
+  display: flex;
+  justify-content: center;
+}
+
+header span {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 700;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.8vh;
+  letter-spacing: 3.4px;
+}
+
+.container-1 {
+  position: relative;
+  width: 100%;
+  height: 92dvh; /* Ajuste conforme necessário */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/Background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.logo-image {
+  position: absolute;
+  top: 0.2rem; /* Ajuste conforme necessário */
+  left: 50%; /* Ajuste conforme necessário */
+  transform: translateX(-50%);
+  height: 5rem;
+  z-index: 2;
+}
+.centered-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.iphone-image {
+  position: absolute;
+  max-width: 75%;
+  top: 5rem;
+}
+
+.text-container-1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  position: absolute;
+  color: white;
+  top: 31rem;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.text-apostapro {
+  font-size: 3.4rem;
+}
+
+.text-percent {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  position: absolute;
+  color: white;
+  top: 40rem;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.text-assertiveness {
+  font-size: 0.9rem;
+}
+
+.percentage {
+  font-size: 4rem;
+}
+
+.button {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  position: absolute;
+  background-color: #0066ff;
+  color: white;
+  top: 46rem;
+  padding: 1rem 3rem 1rem 3rem;
+  animation: pisca 1.5s infinite;
+  box-shadow: 0px 0px 20px -5px #1570ef;
+  border-radius: 0.4rem;
+  text-decoration: none;
+}
+
+.text-below-button {
+  background-color: red;
+  width: 100%;
+  margin-left: 15%;
+}
+
+.below-text {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  color: white;
+  top: 53rem;
+  text-align: center;
+  font-size: 0.8rem;
+  width: 70%;
+}
+
+.button-2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  position: absolute;
+  background-color: #0066ff;
+  color: white;
+  top: 51rem;
+  padding: 1rem 3rem 1rem 3rem;
+  animation: pisca 1.5s infinite;
+  box-shadow: 0px 0px 20px -5px #1570ef;
+  border-radius: 0.4rem;
+  text-decoration: none;
+}
+
+.button-3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  background-color: #0066ff;
+  color: white;
+  padding: 1rem 3rem;
+  animation: pisca 1.5s infinite;
+  box-shadow: 0px 0px 20px -5px #1570ef;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  position: relative; /* Muda para posicionamento relativo */
+  z-index: 1; /* Garante que o botão fique acima de outros elementos */
+  margin-top: auto; /* Empurra o botão para o final do contêiner flexível */
+  margin-bottom: 2rem; /* Ajuste conforme necessário */
+}
+
+.container-2 {
+  background-color: black;
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Ajuste conforme necessário */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.text-container-2 {
+  position: absolute;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2rem;
+  top: 1.5rem;
+}
+
+.subtext-container-2 {
+  color: #0066ff;
+}
+
+.text-container-3 {
+  position: absolute;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.6rem;
+  top: 1.5rem;
+}
+
+.subtext-container-3 {
+  color: #0066ff;
+}
+
+.swiper {
+  width: 95%;
+  height: 660px;
+  bottom: 0.4rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.block-1 {
+  color: white;
+  background-color: blue;
+}
+
+footer {
+  background: linear-gradient(to right, #002a69, #0066ff);
+  display: flex;
+  justify-content: center;
+}
+
+footer span {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: white;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-size: 1.8vh;
+}
