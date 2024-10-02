@@ -64,10 +64,6 @@ header span {
   height: 4rem;
   z-index: 2;
 }
-.centered-image {
-  max-width: 100%;
-  height: auto;
-}
 
 .iphone-image {
   position: absolute;
@@ -78,12 +74,13 @@ header span {
 .text-container-1 {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  position: absolute;
+  position: relative;
   color: white;
-  top: 51%;
+  top: 4rem;
   font-size: 1.5rem;
   text-align: center;
   line-height: 3rem;
+  left: 16%;
 }
 
 .text-apostapro {
@@ -93,12 +90,13 @@ header span {
 .text-percent {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  position: absolute;
+  position: relative;
   color: white;
-  top: 68%;
+  top: 11rem;
   font-size: 2rem;
   text-align: center;
   line-height: 1.5rem;
+  right: 33%;
 }
 
 .text-assertiveness {
@@ -115,7 +113,7 @@ header span {
   position: absolute;
   background-color: #0066ff;
   color: white;
-  top: 80%;
+  top: 41rem;
   padding: 1rem 3rem 1rem 3rem;
   animation: pisca 1.5s infinite;
   box-shadow: 0px 0px 20px -5px #1570ef;
