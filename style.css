@@ -84,7 +84,7 @@ header span {
   font-weight: 600;
   position: absolute;
   color: white;
-  top: 48dvh;
+  top: 51%;
   font-size: 1.5rem;
   text-align: center;
   line-height: 3rem;
@@ -99,7 +99,7 @@ header span {
   font-weight: 600;
   position: absolute;
   color: white;
-  top: 63dvh;
+  top: 68%;
   font-size: 2rem;
   text-align: center;
   line-height: 1.5rem;
@@ -119,7 +119,7 @@ header span {
   position: absolute;
   background-color: #0066ff;
   color: white;
-  top: 74dvh;
+  top: 80%;
   padding: 1rem 3rem 1rem 3rem;
   animation: pisca 1.5s infinite;
   box-shadow: 0px 0px 20px -5px #1570ef;
@@ -138,7 +138,7 @@ header span {
   font-weight: 700;
   position: absolute;
   color: white;
-  top: 87dvh;
+  top: 87%;
   text-align: center;
   font-size: 0.8rem;
   width: 70%;
